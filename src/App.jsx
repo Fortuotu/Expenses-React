@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ExpenseItem from './components/ExpenseItem'
-import Expenses from './components/Expenses.jsx'
+import ExpenseItem from './components/Expenses/ExpenseItem.jsx'
+import Expenses from './components/Expenses/Expenses.jsx'
 
 function App() {
   const expenses = [
